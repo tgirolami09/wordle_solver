@@ -1,1 +1,1 @@
-# wordle_solver
+This doen't solve the wordle for you but gives you all the possible solutions left.
