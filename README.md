@@ -1,1 +1,1 @@
-This doesn't solve the wordle for you but gives you all the possible solutions left.
+This gives you all the posssible solutions left and gives you the word it thinks you should play.
