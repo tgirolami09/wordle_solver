@@ -62,8 +62,7 @@ def get_word_list():
     """
     Gets the word list
     """
-    with open("./Wordle Solvers/wordle_words.csv","r") as file:
-        csvreader = csv.reader(file)
+    with open("./wordle_words.csv","r") as file:
         words=file.read().splitlines()
         return words
 
@@ -80,8 +79,7 @@ def remove_words_with_letter(letters_not_in_the_word:set,words:list):
                     loop -= 1
     return words
 
-with open("./Wordle Solvers/wordle_words.csv","r") as file:
-    csvreader = csv.reader(file)
+with open("./wordle_words.csv","r") as file:
     words=file.read().splitlines()
 print("There are",len(words),"words")  
 all_the_present_letters = set() 
